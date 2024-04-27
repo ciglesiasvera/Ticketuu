@@ -10,11 +10,11 @@ Endpoints de la API
 GET /events -> Obtiene el listado de eventos disponibles, con la información más
 relevante del evento
 
-GET /event/{id} -> Obtiene la información completa del evento por id
+GET /event/id -> Obtiene la información completa del evento por id
 
 POST /purchase -> Crea la compra de un un ticket para un cliente 
 
-GET /orders?client_id={id} -> Lista todas las compras de un cliente 
+GET /orders?client_id=id -> Lista todas las compras de un cliente 
 
 GET /clients -> Lista todos los clientes
 
