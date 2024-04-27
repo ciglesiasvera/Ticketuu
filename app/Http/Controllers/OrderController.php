@@ -8,9 +8,18 @@ use Illuminate\Http\Request;
 class OrderController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        return Order::all();
+       // Verifica si se proporciona un ID de cliente en la solicitud
+       if ($request->has('client_id')) {
+        // Obtiene todas las órdenes filtradas por el ID de cliente
+        $orders = Order::where('client_id', $request->client_id)->get();
+    }   else {
+        // Si no se proporciona un ID de cliente, devuelve todas las órdenes
+        $orders = Order::all();
+    }
+
+        return $orders;
     }
 
 
