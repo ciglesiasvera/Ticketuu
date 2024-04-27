@@ -66,4 +66,4 @@ Con estas instrucciones, deberías poder ejecutar la API Ticketuu en tu entorno 
 [![EVIDENCIA EVALUACIÓN TÉCNICA](https://img.youtube.com/vi/a1QOQr94rhY/0.jpg)](https://www.youtube.com/watch?v=a1QOQr94rhY)
 
 
-Descargar Versión para Docker: 
+Descargar Versión para Docker: https://drive.google.com/drive/folders/1tJ3mseP_ViwD0QMwNh_TNalh5-PEGidw?usp=sharing
