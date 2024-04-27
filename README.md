@@ -62,3 +62,5 @@ Con estas instrucciones, deberías poder ejecutar la API Ticketuu en tu entorno 
 
 
 [https://youtu.be/a1QOQr94rhY](https://www.youtube.com/watch?v=a1QOQr94rhY)
+
+[![EVIDENCIA EVALUACIÓN TÉCNICA](https://img.youtube.com/vi/a1QOQr94rhY/0.jpg)](https://www.youtube.com/watch?v=a1QOQr94rhY)
