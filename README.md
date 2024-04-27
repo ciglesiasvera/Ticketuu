@@ -24,6 +24,19 @@ GET /tickets -> lista todos los tickets
 
 Instrucciones para Ejecutar la API Ticketuu
 
+*******************************************************************************
+IMPORTANTE!!!
+El proyecto está configurado para desplegarse utilizando Dockers, en caso de desplegarlo utilizando wamp o xampp, es necesario
+modificar el archivo .env de la siguiente manera:
+DB_HOST=127.0.0.1
+DB_DATABASE=ticketuu
+DB-USERNAME=root
+DB_PASSWORD=
+
+REDIS_HOST=127.0.0.1
+y eliminar la siguiente clave QUEUE_HOST:beanstalkd
+*******************************************************************************
+
 1. Requisitos Previos:
 
 Asegúrate de tener instalado PHP en tu sistema. Puedes descargarlo desde php.net.
